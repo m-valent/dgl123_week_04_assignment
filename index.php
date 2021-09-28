@@ -1,6 +1,13 @@
 <?php
 
-$message = 'Hello World!';
+$greeting = 'Hello';
+
+$name = 'Homer Simpson';
+
+// $message = $greeting . ', ' . $name . '!';
+
+$message = "$greeting, $name!";
 
 echo $message;
+
 ?>
