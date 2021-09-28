@@ -1,12 +1,12 @@
 <?php
 
-$age = 9;
+$age = 11;
 $height = 5;
 
-// if ($height >= 5) {
-// echo 'Welcome to the supercoaster!';
-// }
-
-var_dump($height >= 5 || $age > 10);
+if ($height >= 5 && $age > 10) {
+    echo 'You can ride the roll coaster, enjoy.';
+} else {
+    echo 'Sorry you are not able to ride the roller coaster.';
+}
 
 ?>
