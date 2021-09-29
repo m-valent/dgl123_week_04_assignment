@@ -16,12 +16,6 @@ NOTE:  I know I do not require the extra HTML code, but for now am including it
 unless you wish to just focus on the PHP and ignore the added HTML?
 -->
 
-<?php
-
-
-
-?>
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -44,7 +38,7 @@ unless you wish to just focus on the PHP and ignore the added HTML?
         <br>
         <button type="submit" name="submit" value="submit">Calculate SUM</button>
 
-    <!-- I changed from a input to button so that I could post the sumbit value
+        <!-- I changed from a input to button so that I could post the sumbit value
         after button was pressed, this allowed $_POST['sumbit'] to set a value
         other than NULL, allowed the IF statement to proceed -->
 
@@ -67,7 +61,7 @@ unless you wish to just focus on the PHP and ignore the added HTML?
         $number_one = $_POST['first']; /* took first value into php variable $number_one */
         $number_two = $_POST['second'];  /* took second value into php variable $number_two */
         $sum_numbers = $number_one + $number_two;
-        /* variable $number_one to variable $number_two and put into $sum_numbers */
+        /* added variable $number_one to variable $number_two and put into variable $sum_numbers */
 
         echo '<p><h3>Result:</h3></p>';
 
