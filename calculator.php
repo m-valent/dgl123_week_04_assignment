@@ -30,13 +30,36 @@ unless you wish to just focus on the PHP and ignore the added HTML?
     <!-- action post will return to same page with variable user inputs -->
 
     <form method="post">
-        <label for="first">First Number:</label>
-        <input type="number" name="first" id="first" value="" required>
+        <div>
+            <label for="first">First Number:</label>
+            <input
+                type="number"
+                name="first"
+                id="first"
+                value=""
+                required
+            />
+        </div>
         <br>
-        <label for="second">Second Number:</label>
-        <input type="number" name="second" id="second" value="" required>
+        <div>
+            <label for="second">Second Number:</label>
+            <input
+                type="number"
+                name="second"
+                id="second"
+                value=""
+                required
+            />
+            </div>
         <br>
-        <button type="submit" name="submit" value="submit">Calculate SUM</button>
+        <div>
+            <button
+                type="submit"
+                name="submit"
+                value="submit">
+                    Calculate SUM
+            </button>
+        </div>
 
         <!-- I changed from a input to button so that I could post the sumbit value
         after button was pressed, this allowed $_POST['sumbit'] to set a value
