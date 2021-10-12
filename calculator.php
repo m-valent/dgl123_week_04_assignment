@@ -65,8 +65,8 @@ unless you wish to just focus on the PHP and ignore the added HTML?
             </button>
         </div>
 
-        <!-- I changed from a input to button so that I could post the sumbit value
-        after button was pressed, this allowed $_POST['sumbit'] to set a value
+        <!-- I changed from a input to button so that I could post the submit value
+        after button was pressed, this allowed $_POST['submit'] to set a value
         other than NULL, allowed the IF statement to proceed -->
 
         <?php
@@ -75,7 +75,7 @@ unless you wish to just focus on the PHP and ignore the added HTML?
 they are unknown until the user submits the numbers. I had to find something that
 would show as undefined to stop the IF statement from action, I found in my search
 ISSET — Determine if a variable is declared and is different than null. Tried it
-out and it worked. Since $_POST['sumbit'] has not been set the IF statement as NULL,
+out and it worked. Since $_POST['submit'] has not been set the IF statement as NULL,
 I was asking if not null, proceed.
 */
 
