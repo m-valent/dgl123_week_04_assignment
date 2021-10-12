@@ -40,7 +40,7 @@ unless you wish to just focus on the PHP and ignore the added HTML?
                 type="number"
                 name="first"
                 id="first"
-                value=""
+                value="<?= $_POST['first'] ?? '' ?>"
                 required
             />
         </div>
@@ -51,7 +51,7 @@ unless you wish to just focus on the PHP and ignore the added HTML?
                 type="number"
                 name="second"
                 id="second"
-                value=""
+                value="<?= $_POST['second'] ?? '' ?>"
                 required
             />
             </div>
